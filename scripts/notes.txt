@@ -1,0 +1,2 @@
+Get DatasetList.xml
+http://sdmxws.imf.org/Gateway/QueryPage.aspx?Type=DatasetList

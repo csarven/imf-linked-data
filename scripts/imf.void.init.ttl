@@ -42,7 +42,7 @@ imf-dataset:imf
     foaf:homepage <http://imf.270a.info/> ;
     dcterms:source <http://www.imf.org/> ;
     dcterms:publisher <http://csarven.ca/#i> ;
-    dcterms:modified "2013-08-07"^^xsd:date ;
+    dcterms:modified "2014-03-05"^^xsd:date ;
     dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
     void:subset
         imf-dataset:void ,
@@ -65,7 +65,7 @@ imf-dataset:imf
 imf-dataset:void
     a sd:Graph, void:Dataset ;
     dcterms:title "SD+VoID triples"@en ;
-    void:triples 1130 ;
+    void:triples 1156 ;
     void:dataDump <http://imf.270a.info/void.ttl> ;
     .
 

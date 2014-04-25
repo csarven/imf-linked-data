@@ -28,9 +28,9 @@ sleep 0.1
 
     echo "$DataSetCode" ;
 
-#    wget -c -t 1 --timeout 300 --no-http-keep-alive "$downloadURL" -O "$data""$DataSetCode".Structure.xml;
+    wget -c -t 1 --timeout 300 --no-http-keep-alive "$downloadURL" -O "$data""$DataSetCode".Structure.xml;
 
-sleep 1
+#sleep 1
     dtend=$(date +"%Y-%m-%dT%H:%M:%SZ") ;
     dtendd=$(echo "$dtend" | sed 's/[^0-9]*//g') ;
 
@@ -71,9 +71,9 @@ sleep 0.1
 
         echo "$DataSetCode $j - $title" ;
 
-#        wget -c -t 1 --timeout 300 --no-http-keep-alive "$downloadURL" -O "$data""$DataSetCode"".$j".xml ;
+        wget -c -t 1 --timeout 300 --no-http-keep-alive "$downloadURL" -O "$data""$DataSetCode"".$j".xml ;
 
-sleep 1
+#sleep 1
         dtend=$(date +"%Y-%m-%dT%H:%M:%SZ") ;
         dtendd=$(echo "$dtend" | sed 's/[^0-9]*//g') ;
 

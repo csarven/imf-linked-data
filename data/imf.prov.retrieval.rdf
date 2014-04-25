@@ -1,0 +1,1842 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:sdmx="http://purl.org/linked-data/sdmx#">
+
+    <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045005">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:05Z</prov:startedAtTime>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:12Z</prov:endedAtTime>
+        <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+        <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+        <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetKeyFamily/DM/IMF/?resolveRef=true"/>
+        <prov:generated>
+            <rdf:Description rdf:about="http://imf.270a.info/data/DM.Structure.xml">
+                <dcterms:identifier>DM</dcterms:identifier>
+            </rdf:Description>
+        </prov:generated>
+        <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+        <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045012">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:12Z</prov:startedAtTime>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:19Z</prov:endedAtTime>
+        <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+        <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+        <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetKeyFamily/MBLD/IMF/?resolveRef=true"/>
+        <prov:generated>
+            <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.Structure.xml">
+                <dcterms:identifier>MBLD</dcterms:identifier>
+            </rdf:Description>
+        </prov:generated>
+        <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+        <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045019">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:19Z</prov:startedAtTime>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:30Z</prov:endedAtTime>
+        <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+        <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+        <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetKeyFamily/MCORE/IMF/?resolveRef=true"/>
+        <prov:generated>
+            <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.Structure.xml">
+                <dcterms:identifier>MCORE</dcterms:identifier>
+            </rdf:Description>
+        </prov:generated>
+        <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+        <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045030">
+        <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+        <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:30Z</prov:startedAtTime>
+        <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:37Z</prov:endedAtTime>
+        <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+        <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+        <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetKeyFamily/PGI/IMF/?resolveRef=true"/>
+        <prov:generated>
+            <rdf:Description rdf:about="http://imf.270a.info/data/PGI.Structure.xml">
+                <dcterms:identifier>PGI</dcterms:identifier>
+            </rdf:Description>
+        </prov:generated>
+        <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+        <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+    </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045039">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:39Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:45Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=A1&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.A1.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045045">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:45Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:51Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=AR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.AR.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045051">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:51Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:56Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=AU&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.AU.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045056">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:50:56Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:02Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=BR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.BR.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045102">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:02Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:08Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=CA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.CA.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045108">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:08Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:13Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=CH&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.CH.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045114">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:14Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:19Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=CN&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.CN.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045119">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:19Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:25Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=DE&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.DE.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045125">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:25Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:31Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=ES&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.ES.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045131">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:31Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:36Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=FR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.FR.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045136">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:36Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:42Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=GB&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.GB.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045142">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:42Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:48Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=HK&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.HK.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045148">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:48Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:53Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=I6&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.I6.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045154">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:54Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:59Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=ID&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.ID.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045159">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:51:59Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:06Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=IN&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.IN.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045206">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:06Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:12Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=IT&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.IT.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045212">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:12Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:18Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=JP&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.JP.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045218">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:18Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:24Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=KR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.KR.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045224">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:24Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:29Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=MX&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.MX.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045229">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:29Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:35Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=NL&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.NL.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045235">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:35Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:41Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=RU&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.RU.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045241">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:41Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:46Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=SA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.SA.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045246">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:46Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:52Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=SG&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.SG.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045252">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:52Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:58Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=TR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.TR.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045258">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:52:58Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:53:03Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=US&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.US.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045304">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:53:04Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:53:10Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=DM&amp;key=ZA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/DM.ZA.xml">
+                    <dcterms:identifier>DM</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Data Mapper</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved DM</rdfs:label>
+            <rdfs:comment xml:lang="en">DM retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045310">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:53:10Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:53:30Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=A1&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.A1.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045330">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:53:30Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:54:13Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=AR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.AR.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045414">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:54:14Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:55:51Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=AU&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.AU.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045551">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:55:51Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:56:11Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=BR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.BR.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045611">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:56:11Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:56:28Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=CA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.CA.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045628">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:56:28Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:57:07Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=CH&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.CH.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045707">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:57:07Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:57:19Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=CN&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.CN.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045719">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:57:19Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:58:24Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=DE&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.DE.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304045825">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T04:58:25Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:00:47Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=ES&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.ES.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050047">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:00:47Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:02:25Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=FR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.FR.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050226">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:02:26Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:04:00Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=GB&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.GB.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050400">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:04:00Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:05:17Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=HK&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.HK.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050517">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:05:17Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:05:23Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=I6&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.I6.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050523">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:05:23Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:05:58Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=ID&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.ID.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050558">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:05:58Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:06:33Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=IN&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.IN.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050633">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:06:33Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:07:37Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=IT&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.IT.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050737">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:07:37Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:08:36Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=JP&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.JP.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050837">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:08:37Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:09:10Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=KR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.KR.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050910">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:09:10Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:09:38Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=MX&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.MX.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304050938">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:09:38Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:11:00Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=NL&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.NL.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051100">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:11:00Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:12:01Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=RU&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.RU.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051201">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:12:01Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:12:14Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=SA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.SA.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051214">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:12:14Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:12:31Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=SG&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.SG.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051231">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:12:31Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:13:17Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=TR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.TR.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051317">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:13:17Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:14:02Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=US&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.US.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051402">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:14:02Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:14:39Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MBLD&amp;key=ZA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MBLD.ZA.xml">
+                    <dcterms:identifier>MBLD</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Bilateral Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MBLD</rdfs:label>
+            <rdfs:comment xml:lang="en">MBLD retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051439">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:14:39Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:14:46Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=A1&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.A1.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051446">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:14:46Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:14:57Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=AR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.AR.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051457">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:14:57Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:09Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=AU&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.AU.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051509">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:09Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:21Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=BR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.BR.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051522">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:22Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:33Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=CA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.CA.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051533">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:33Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:47Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=CH&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.CH.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051548">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:48Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:55Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=CN&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.CN.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051555">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:15:55Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:16:10Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=DE&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.DE.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051610">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:16:10Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:16:22Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=ES&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.ES.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051622">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:16:22Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:16:32Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=FR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.FR.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051632">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:16:32Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:16:56Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=GB&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.GB.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051657">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:16:57Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:17:08Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=HK&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.HK.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051708">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:17:08Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:17:24Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=I6&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.I6.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051724">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:17:24Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:17:35Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=ID&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.ID.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051735">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:17:35Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:17:46Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=IN&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.IN.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051746">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:17:46Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:07Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=IT&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.IT.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051807">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:07Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:17Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=JP&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.JP.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051817">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:17Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:28Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=KR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.KR.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051828">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:28Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:41Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=MX&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.MX.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051841">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:41Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:55Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=NL&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.NL.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051855">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:18:55Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:06Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=RU&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.RU.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051906">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:06Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:13Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=SA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.SA.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051913">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:13Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:23Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=SG&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.SG.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051923">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:23Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:37Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=TR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.TR.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051937">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:37Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:47Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=US&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.US.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304051948">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:19:48Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:20:02Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=MCORE&amp;key=ZA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/MCORE.ZA.xml">
+                    <dcterms:identifier>MCORE</dcterms:identifier>
+                    <dcterms:title xml:lang="en">M Core Data</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved MCORE</rdfs:label>
+            <rdfs:comment xml:lang="en">MCORE retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052002">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:20:02Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:20:08Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=A1&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.A1.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052009">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:20:09Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:20:22Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=AR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.AR.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052022">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:20:22Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:20:45Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=AU&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.AU.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052045">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:20:45Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:21:03Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=BR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.BR.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052103">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:21:03Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:21:25Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=CA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.CA.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052125">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:21:25Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:21:48Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=CH&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.CH.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052148">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:21:48Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:22:01Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=CN&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.CN.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052201">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:22:01Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:22:22Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=DE&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.DE.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052222">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:22:22Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:22:42Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=ES&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.ES.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052242">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:22:42Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:23:06Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=FR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.FR.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052306">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:23:06Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:23:26Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=GB&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.GB.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052326">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:23:26Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:23:40Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=HK&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.HK.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052340">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:23:40Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:23:57Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=I6&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.I6.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052357">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:23:57Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:24:12Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=ID&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.ID.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052412">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:24:12Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:24:30Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=IN&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.IN.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052430">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:24:30Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:24:51Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=IT&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.IT.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052451">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:24:51Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:25:13Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=JP&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.JP.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052513">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:25:13Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:25:37Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=KR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.KR.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052537">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:25:37Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:25:57Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=MX&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.MX.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052557">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:25:57Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:26:20Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=NL&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.NL.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052620">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:26:20Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:26:33Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=RU&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.RU.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052633">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:26:33Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:26:46Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=SA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.SA.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052646">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:26:46Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:27:04Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=SG&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.SG.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052704">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:27:04Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:27:20Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=TR&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.TR.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052720">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:27:20Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:27:41Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=US&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.US.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+        <rdf:Description rdf:about="http://imf.270a.info/provenance/activity/20140304052741">
+            <rdf:type rdf:resource="http://www.w3.org/ns/prov#Activity"/>
+            <prov:startedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:27:41Z</prov:startedAtTime>
+            <prov:endedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2014-03-04T05:28:03Z</prov:endedAtTime>
+            <prov:wasAssociatedWith rdf:resource="http://csarven.ca/#i"/>
+            <prov:used rdf:resource="https://launchpad.net/ubuntu/+source/wget"/>
+            <prov:used rdf:resource="http://sdmxws.imf.org/RestSDMX2/sdmx.ashx/GetData?dataflow=PGI&amp;key=ZA&amp;format=generic_v2"/>
+            <prov:generated>
+                <rdf:Description rdf:about="http://imf.270a.info/data/PGI.ZA.xml">
+                    <dcterms:identifier>PGI</dcterms:identifier>
+                    <dcterms:title xml:lang="en">Principal Global Indicators</dcterms:title>
+                </rdf:Description>
+            </prov:generated>
+            <rdfs:label xml:lang="en">Retrieved PGI</rdfs:label>
+            <rdfs:comment xml:lang="en">PGI retrieved from source and saved to local filesystem.</rdfs:comment>
+        </rdf:Description>
+
+</rdf:RDF>
